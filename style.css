@@ -1,0 +1,99 @@
+/* Estilos gerais */
+* {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para a tabela do jogo */
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.blocked, .flag {
+    background: lightgray;
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+    background-color: #eee;
+    color: blue;
+}
+
+.n2 {
+    color: green;
+}
+
+.n3 {
+    color: red;
+}
+
+.n4 {
+    color: maroon;
+}
+
+.n5 {
+    color: blueviolet;
+}
+
+.n6 {
+    color: darkgoldenrod;
+}
+
+.n7 {
+    color: orange;
+}
+
+.n8 {
+    color: tomato;
+}
+
+.blank {
+    background-color: #eee;
+}
+
+/* Estilos para telas menores (máximo de 768px de largura) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    table {
+        margin: 0.5em auto;
+    }
+
+    td {
+        width: 20px;
+        height: 20px;
+    }
+
+    .controls {
+        text-align: center;
+    }
+}
